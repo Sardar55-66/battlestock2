@@ -586,6 +586,14 @@ img {
 
 @media(max-width: 1025px) {
 
+    .score-points__title {
+        margin-top: 0;
+    }
+
+    .activated {
+        display: none;
+    }
+
     .left-right-container_headers {
         margin-left: 2%;
     }
@@ -595,9 +603,7 @@ img {
         padding-bottom: 35px !important;
     }
     
-    .social-logos_wrapper {
-        top: 12em;
-    }
+   
 
     .main {
         overflow: hidden;
@@ -631,7 +637,7 @@ img {
 
     .social-logos_wrapper {
         position: relative;
-        top: 12em;
+        top: 10em;
     }
 
     .score-points {
@@ -786,7 +792,7 @@ img {
     }
 
     .social-logos_wrapper {
-        top: 12em;
+        top: 10em;
     }
 
     div.elapsed {
@@ -1514,7 +1520,7 @@ tbody :last-child {
     color: #fff;
 }
 .joined-players_count {
-    transform: translateY(-45px);
+    transform: translateY(-40px);
     text-align: right;
     font-family: 'Gordita';
     width: 100%;

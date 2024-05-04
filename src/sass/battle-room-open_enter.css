@@ -605,15 +605,18 @@ img {
 }
 
 @media (max-width: 1025px) {
+  .score-points__title {
+    margin-top: 0;
+  }
+  .activated {
+    display: none;
+  }
   .left-right-container_headers {
     margin-left: 2%;
   }
   .elapsed {
     max-width: 100%;
     padding-bottom: 35px !important;
-  }
-  .social-logos_wrapper {
-    top: 12em;
   }
   .main {
     overflow: hidden;
@@ -637,7 +640,7 @@ img {
   }
   .social-logos_wrapper {
     position: relative;
-    top: 12em;
+    top: 10em;
   }
   .score-points {
     width: 100% !important;
@@ -750,7 +753,7 @@ img {
     height: 100px !important;
   }
   .social-logos_wrapper {
-    top: 12em;
+    top: 10em;
   }
   div.elapsed {
     padding-bottom: 0px !important;
@@ -1470,7 +1473,7 @@ tbody :last-child {
 }
 
 .joined-players_count {
-  transform: translateY(-45px);
+  transform: translateY(-40px);
   text-align: right;
   font-family: "Gordita";
   width: 100%;
