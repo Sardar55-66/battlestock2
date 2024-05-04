@@ -18,6 +18,12 @@ html {
   font-weight: 500;
 }
 @font-face {
+  font-family: "Gordita";
+  src: url("../fonts/GorditaRegular.ttf") format("truetype");
+  font-style: regular;
+  font-weight: 600;
+}
+@font-face {
   font-family: "Sawarabi";
   src: url("../fonts/SawarabiMincho-Regular.ttf") format("truetype");
   font-style: normal;
@@ -256,6 +262,7 @@ img {
 }
 
 .pick-three-stock {
+  margin-right: 15px;
   background-color: #31297F;
 }
 
@@ -414,6 +421,10 @@ img {
 
 .game-info-container-navigation_panel > ul {
   width: 100%;
+}
+
+.question-mark_wrapper, .question-mark-link {
+  margin-left: 15px !important;
 }
 
 .game-info-container-navigation_panel > ul > li {
@@ -638,12 +649,17 @@ img {
   margin-right: 10px;
 }
 
+.refresh-btn-wrapper {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .header-button {
   width: 42%;
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 25%;
 }
 
 .header-button__text {
@@ -1214,6 +1230,12 @@ tbody :last-child {
 
 .card-title, .card-text {
   font-size: 12px;
+  font-family: "Gordita";
+  font-weight: 600;
+}
+
+.card-title {
+  font-size: 14px;
 }
 
 .card-text {
@@ -1227,6 +1249,7 @@ tbody :last-child {
 }
 
 .players {
+  font-weight: 300;
   font-size: 14px;
   font-family: "Gordita";
   margin-top: 10px;
