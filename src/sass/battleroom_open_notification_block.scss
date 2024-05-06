@@ -33,6 +33,7 @@ html {
 }
 
 body {
+    position: relative;
     font-family: 'Gordita';
     font-weight: 300;
     background-color: linear-gradient(#260021, #0B1432) !important;
@@ -1149,7 +1150,7 @@ img {
 }
 
 .active-profit {
-    color: #14FF00;
+    color: #14FF00 !important;
 }
 
 .profit-tb__table th {
@@ -1811,4 +1812,82 @@ tbody :last-child {
     height: 37px;
     font-size: 12px;
     font-weight: 400;
+}
+
+#myDialog {
+    font-family: 'Gordita';
+    text-align: center;
+    overflow-y: hidden;
+    height: auto;
+}
+#myDialog>.score-points {
+    margin-bottom: 15px;
+}
+.score-points__table-modal {
+    width: 100%;
+}
+#myDialog::backdrop {
+    background-color: rgba(14, 1, 11, 0.5);
+}
+
+.score-points__table-body_title {
+    
+    color: #F8D05F;
+}
+
+.score-points__table-balance, .score-points__table-body_text {
+    color: #fff;
+}
+
+.modal-game_rules {
+    width: 340px;
+    border: 1px solid #F8D05F;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 0px 15px 1px rgba(213, 213, 42, 0.72);
+    -moz-box-shadow: -1px 0px 15px 1px rgba(213, 213, 42, 0.72);
+    box-shadow: -1px 0px 15px 1px rgba(213, 213, 42, 0.72);
+    background: linear-gradient(#2E0327, #6D1153, #2E0327);
+    min-height: 640px;
+}
+.modal-close_btn {
+    background: none;
+    border: none;
+    float: right;
+}
+
+.question_mark {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.question_mark>img {
+    width: 40px;
+    height: 40px;
+}
+.modal-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    color: #fff;
+}
+.modal-text {
+    color: #FEFFAB;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.score-points__title-modal, .profit-tb__title-modal {
+    font-size: 21px;
+    color: #fff;
+}
+.profit-tb_modal {
+    color: #fff;
+    font-size: 11px;
+    margin-top: 10px;
+}
+#myDialog>.score-points__table, #myDialog>.score-points, .modal-table {
+    width: 100% !important;
+}
+#myDialog>.score-points__td {
+    color: #fff;
 }
