@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./src/sass/battleroom_open_enter_popup_joined.css">    
+    <link rel="stylesheet" href="./src/sass/battle-room-open_enter.css">    
     <link rel="stylesheet" href="./src/bootstrap-4.6/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="./src/bootstrap-4.6/bootstrap-grid.css">
     <link rel="stylesheet" href="./src/bootstrap-4.6/bootstrap-reboot.min.css">
@@ -818,7 +818,6 @@
                                     
                 </div>
            </div>
-     
         </div>
     
         <div class="container-fluid d-flex justify-content-center footer-wrapper_battle-room__open">
@@ -834,9 +833,6 @@
                 </div>
             </footer>
         </div>
-
-      
-    
     </div>
 
     
@@ -981,36 +977,12 @@
     
     </div>
 
-    <dialog id="joinedPopup" class="joined-modal" aria-label="popup">
-      
-  
-         
-        <button type="button" class="popup-modal-close_btn" onclick="window.joinedPopup.close()">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#FFD762" height="25px" width="25px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
-                <g>
-                    <g>
-                        <polygon points="512,59.076 452.922,0 256,196.922 59.076,0 0,59.076 196.922,256 0,452.922 59.076,512 256,315.076 452.922,512     512,452.922 315.076,256   "/>
-                    </g>
-                </g>
-                </svg>
-           </button>
-     
-           <div class="popup-inner">
-            <div class="popup-logo">
-                <img src="./src/assets/icons/sword-icon.svg" alt="sword-icon">
-            </div>
-            <div class="popup-text">You have successfully joined the Battle!</div>
-        
-           </div>
-    
-    
- </dialog> 
-     
-     
+    <dialog class="joined-modal" open="">
+
+    </dialog>
 
 
     <script src="./src/js/script.js"></script>
     <script src="./src/js/mobileModal.js"></script>
-    <script src="./src/js/joined.popup.js"></script>
 </body>
 </html>
