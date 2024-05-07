@@ -217,7 +217,7 @@ img {
 
 .sidebars-inner_wrapper {
     position: absolute;
-    height: 120%;
+    height: 73em;
     border-bottom: none;
 }
 .sidebar__header {
@@ -997,6 +997,10 @@ img {
 .profit-tb__table {
     width: 100%;
 }
+.profit-tb__table>tbody {
+    font-size: 12px;
+    color: #fff;
+}
 
 .active-profit {
     color: #14FF00;
@@ -1520,6 +1524,7 @@ tbody :last-child {
     color: #fff;
 }
 .joined-players_count {
+    margin-top: 40px;
     transform: translateY(-40px);
     text-align: right;
     font-family: 'Gordita';

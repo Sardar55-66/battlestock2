@@ -1827,7 +1827,7 @@ tbody :last-child {
     width: 100%;
 }
 #myDialog::backdrop {
-    background-color: rgba(14, 1, 11, 0.5);
+    background-color: rgba(14, 1, 11, 0.8);
 }
 
 .score-points__table-body_title {
@@ -1890,4 +1890,44 @@ tbody :last-child {
 }
 #myDialog>.score-points__td {
     color: #fff;
+}
+
+.activation-mobile-menu_modal { 
+    display: none;
+}
+
+.mobile-menu_modal {
+    position: absolute;
+    top: calc(5em + 2px);
+    min-width: 100%;
+    height: 100%;
+    background-color: rgba(14, 1, 11, 0.8);
+    z-index: 99;
+}
+.sidebar-modal {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    background: linear-gradient(#220821, #1D134A,);
+    border-left: 1px solid #F8D05F;
+    border-top: none;
+    border-right: 1px solid #F8D05F;
+    border-bottom: none;
+}
+.header__account-verification-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.verify-now-modal {
+    font-size: 14px;
+    color: #fff;
+}
+
+.sidebar-modal_wrapper {
+    display: flex;
+    width: 160px;
 }
