@@ -138,14 +138,18 @@ body {
     width: 25px;
     height: 25px;
 }
+.social-media_share>a>svg {
+    margin-bottom: 8px;
+}
 .social-media_share> span {
-    font-size: 14px;
+    font-family: 'Gordita';
+    font-size: 20px;
     color: #F8D05F;
 }
 
 .social-media_share {
-    margin-top: 1px;
-    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .social-media {
@@ -1683,8 +1687,9 @@ tbody :last-child {
 .joined-modal {
     font-family: 'Gordita';
     overflow-y: hidden;
+    flex-direction: column;
     width: 666px;
-    min-height: 270px;
+    min-height: 329px;
     background: linear-gradient(#2E0327, #6D1153, #2E0327);
     border: 1px solid #F8D05F;
     border-radius: 10px;
@@ -1692,6 +1697,7 @@ tbody :last-child {
     -moz-box-shadow: -1px 0px 15px 1px rgba(213, 213, 42, 0.72);
     box-shadow: -1px 0px 15px 1px rgba(213, 213, 42, 0.72);
     display: flex;
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     text-align: center;
@@ -1724,4 +1730,11 @@ tbody :last-child {
     background: none;
     border: none;
     float: right;
+}
+.social-media_page-modal {
+    margin-top: 20px;
+}
+.social-media_page-modal>a>img {
+    width: 27px;
+    height: 27px;
 }
