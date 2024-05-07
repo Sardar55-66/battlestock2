@@ -754,7 +754,7 @@ img {
     height: 100px !important;
   }
   .social-logos_wrapper {
-    top: calc(11em + 11px);
+    top: calc(10em + 11px);
   }
   div.elapsed {
     padding-bottom: 0px !important;
@@ -1512,4 +1512,132 @@ tbody :last-child {
   height: 37px;
   font-size: 12px;
   font-weight: 400;
+}
+
+#myDialog {
+  font-family: "Gordita";
+  text-align: center;
+  overflow-y: hidden;
+  height: auto;
+}
+
+#myDialog > .score-points {
+  margin-bottom: 15px;
+}
+
+.score-points__table-modal {
+  width: 100%;
+}
+
+#myDialog::backdrop {
+  background-color: rgba(14, 1, 11, 0.8);
+}
+
+.score-points__table-body_title {
+  color: #F8D05F;
+}
+
+.score-points__table-balance, .score-points__table-body_text {
+  color: #fff;
+}
+
+.modal-game_rules {
+  width: 340px;
+  border: 1px solid #F8D05F;
+  border-radius: 10px;
+  box-shadow: -1px 0px 15px 1px rgba(213, 213, 42, 0.72);
+  background: linear-gradient(#2E0327, #6D1153, #2E0327);
+  min-height: 640px;
+}
+
+.modal-close_btn {
+  background: none;
+  border: none;
+  float: right;
+}
+
+.question_mark {
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+.question_mark > img {
+  width: 40px;
+  height: 40px;
+}
+
+.modal-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  color: #fff;
+}
+
+.modal-text {
+  color: #FEFFAB;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.score-points__title-modal, .profit-tb__title-modal {
+  font-size: 21px;
+  color: #fff;
+}
+
+.profit-tb_modal {
+  color: #fff;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+#myDialog > .score-points__table, #myDialog > .score-points, .modal-table {
+  width: 100% !important;
+}
+
+#myDialog > .score-points__td {
+  color: #fff;
+}
+
+.activation-mobile-menu_modal {
+  display: none;
+}
+
+.mobile-menu_modal {
+  position: absolute;
+  top: calc(5em + 2px);
+  min-width: 100%;
+  height: 100%;
+  background-color: rgba(14, 1, 11, 0.8);
+  z-index: 99;
+}
+
+.sidebar-modal {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  background: linear-gradient(#220821, #1D134A);
+  border-left: 1px solid #F8D05F;
+  border-top: none;
+  border-right: 1px solid #F8D05F;
+  border-bottom: none;
+}
+
+.header__account-verification-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.verify-now-modal {
+  font-size: 14px;
+  color: #fff;
+}
+
+.sidebar-modal_wrapper {
+  display: flex;
+  width: 160px;
 }/*# sourceMappingURL=battle-room-open_enter.css.map */
