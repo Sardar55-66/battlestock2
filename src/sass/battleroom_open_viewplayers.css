@@ -215,7 +215,7 @@ img {
 
 .sidebars-inner_wrapper {
   position: absolute;
-  height: calc(142% + 3px);
+  height: calc(141% + 9px);
   border-bottom: none;
 }
 
@@ -1080,6 +1080,10 @@ tbody :last-child {
   font-size: 12px;
 }
 
+.players:last-child {
+  margin-bottom: 10px;
+}
+
 .left-right_container__no-players {
   padding-left: 15px;
   padding-right: 15px;
@@ -1226,6 +1230,10 @@ tbody :last-child {
   display: flex;
   width: 100%;
   height: 50px;
+}
+
+.battle-rules_container-title, .restrictions_container-title {
+  margin-top: 10px;
 }
 
 .battle-detailes_container-title, .battle-rules_container-title, .restrictions_container-title {
@@ -1388,6 +1396,10 @@ tbody :last-child {
   border-top: 1px solid #6A3F3A;
 }
 
+.left-container__container {
+  width: 100%;
+}
+
 .left-container__container-title {
   font-size: 14px;
   font-family: "Gordita";
@@ -1408,6 +1420,7 @@ tbody :last-child {
   height: 51px;
   margin-left: 15px;
   margin-top: 15px;
+  border-bottom: 1px solid #6A3F3A;
 }
 
 .player-inf0 {
@@ -1426,10 +1439,12 @@ tbody :last-child {
   height: 25px;
 }
 
-.no-status-players > li {
+.row-number {
   font-family: "Gordita";
   font-size: 14px;
   color: #fff;
+  margin-right: 20px;
+  margin-left: 13px;
 }
 
 .arrow > img {
@@ -1456,10 +1471,11 @@ tbody :last-child {
   font-size: 14px;
   color: #FEFFAB;
   font-family: "Gordita";
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .player-info_container {
+  padding-right: 15px;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 455px;
