@@ -1074,6 +1074,12 @@ tbody :last-child {
   margin-left: 15rem;
 }
 
+.players > div {
+  font-family: "Gordita";
+  font-weight: 300;
+  font-size: 12px;
+}
+
 .left-right_container__no-players {
   padding-left: 15px;
   padding-right: 15px;
@@ -1229,6 +1235,10 @@ tbody :last-child {
   font-weight: 400;
 }
 
+.battle-rules_container-title, .battle-rules_container-title > div {
+  font-family: "Gordita";
+}
+
 .players, .battle-rules_container, .restrictions_container {
   font-size: 12px;
   color: #FFFFFF;
@@ -1372,6 +1382,7 @@ tbody :last-child {
 }
 
 .battle-rules_container {
+  font-family: "Gordita";
   min-height: 90px;
   width: 95%;
   border-top: 1px solid #6A3F3A;
@@ -1477,6 +1488,7 @@ tbody :last-child {
 }
 
 .restrictions_container {
+  font-family: "Gordita";
   border-top: 1px solid #6A3F3A;
   width: 95%;
   min-height: 80px;
