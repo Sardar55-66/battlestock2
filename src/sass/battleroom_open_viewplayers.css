@@ -343,7 +343,7 @@ img {
 .containers-wrapper__first {
   position: relative;
   z-index: 98;
-  width: 70%;
+  width: 65%;
   margin-left: 17px !important;
 }
 
@@ -618,6 +618,19 @@ img {
 }
 
 @media (max-width: 1025px) {
+  .left-container__header-wrapper {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    flex-direction: row;
+    z-index: 99;
+    border-bottom: 1px solid #F8D05F;
+    left: 6px;
+    border: 1px solid #F8D05F;
+    height: 48px;
+    background-color: #3F0437;
+    border-radius: 10px;
+    box-shadow: -1px 0px 15px 1px rgba(213, 213, 42, 0.72);
+  }
   .right-container {
     margin-bottom: 15px;
   }
@@ -885,17 +898,10 @@ img {
 
 .left-container__header-wrapper {
   margin-bottom: 10px;
-  align-items: center;
   margin-left: 15px;
-  display: flex;
-  top: calc(17px + 10rem);
   flex-direction: row;
   z-index: 99;
-  height: 31px;
   border-bottom: 1px solid #F8D05F;
-  left: 34em;
-  width: 97%;
-  justify-content: flex-start;
   border: 1px solid #F8D05F;
   height: 48px;
   background-color: #3F0437;
@@ -1243,6 +1249,7 @@ tbody :last-child {
   font-size: 14px;
   font-family: "Gordita";
   padding: 5px;
+  font-weight: 400;
 }
 
 .timer {
@@ -1379,6 +1386,11 @@ tbody :last-child {
   margin-left: 15px;
 }
 
+.player-info {
+  display: flex;
+  align-items: center;
+}
+
 .left-container-player-info {
   display: flex;
   justify-content: space-between;
@@ -1403,6 +1415,12 @@ tbody :last-child {
   height: 25px;
 }
 
+.no-status-players > li {
+  font-family: "Gordita";
+  font-size: 14px;
+  color: #fff;
+}
+
 .arrow > img {
   width: 7px;
   height: 7px;
@@ -1414,6 +1432,7 @@ tbody :last-child {
 .player-avatar {
   width: 25px;
   height: 25px;
+  margin-right: 5px;
 }
 
 .stock-percent {
