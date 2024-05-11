@@ -217,7 +217,7 @@ img {
 
 .sidebars-inner_wrapper {
     position: absolute;
-    height: calc(130% + 8px);
+    height: calc(142% + 3px);
     border-bottom: none;
 }
 .sidebar__header {
@@ -544,6 +544,17 @@ img {
     background-color: #123A1C;
 }
 
+.detailed-info {
+    min-height: 109px;
+    background-color: #260423;
+    width: 97%;
+    margin-left: 15px;
+    border-bottom: none;
+    padding-bottom: 15px;
+}
+.detailed-info-inactive {
+    display: none;
+}
 
 .nav-panel_active {
     color: #fff !important;
@@ -585,6 +596,15 @@ img {
 
 
 @media(max-width: 1025px) {
+    .right-container {
+        margin-bottom: 15px;
+    }
+    .player-info_container {
+        padding-right: 15px;
+    }
+    .mobile-inactive {
+        display: none;
+    }
 
     .left-right-container_headers {
         margin-left: 2%;
@@ -1328,6 +1348,28 @@ tbody :last-child {
     flex-direction: column;
 }
 
+.stock-icon {
+    display: flex;
+}
+
+.stock-info-dropdown {
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stock-title, .percentage {
+    margin-right: 10px;
+    font-family: 'Gordita';
+    font-size: 14px;
+    color: #FEFFAB;
+}
+.stock-title {
+    margin-left: 10px;
+}
+
 .stock-info {
     display: flex;
     align-items: center;
@@ -1341,6 +1383,9 @@ tbody :last-child {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+}
+.stock-table-info_wrapper:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .stock-name, .stock-percentage {
@@ -1368,9 +1413,6 @@ tbody :last-child {
     border-top: 1px solid #6A3F3A;
 }
 
-.left-container__container {
-    width: 100%;
-}
 .left-container__container-title {
     font-size: 14px;
     font-family: 'Gordita';
@@ -1422,20 +1464,22 @@ tbody :last-child {
     font-family: 'Gordita';
     font-weight: 400;
 }
-.player-info_wrapper {
-    overflow-x: hidden;
+.player-info_container {
     overflow-y: scroll;
-    padding-right: 15px;
+    overflow-x: hidden;
+    height: 455px;
 }
-.player-info_wrapper>div:not(:last-child) {
+
+.player-info_container>div:not(:last-child) {
     border-bottom: 1px solid #6A3F3A;
 }
-.player-info_wrapper::-webkit-scrollbar {
+
+.player-info_container::-webkit-scrollbar {
     background-color: #260423;
     width: 10px;
     scroll-margin-top: 19px;
 }
-.player-info_wrapper::-webkit-scrollbar-thumb {
+.player-info_container::-webkit-scrollbar-thumb {
     position: relative;
     background-color: #8D4987;
     width: 2px;
