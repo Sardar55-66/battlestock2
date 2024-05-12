@@ -215,7 +215,7 @@ img {
 
 .sidebars-inner_wrapper {
   position: absolute;
-  height: 120%;
+  height: 127%;
   border-bottom: none;
 }
 
@@ -976,7 +976,7 @@ tbody :last-child {
 
 .elapsed {
   width: 100%;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
   min-width: 310px;
   margin: 0 auto;
 }
