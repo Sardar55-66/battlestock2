@@ -621,7 +621,7 @@ img {
     }
 
     .left-right_container {
-        height: 240px !important;
+        height: 250px !important;
     }
 
     .game-info-container-navigation_panel > ul {
@@ -778,7 +778,7 @@ img {
     }
 
     .left-right_container {
-        height: 255px !important;
+        height: 265px !important;
     }
 
     .social-media {
@@ -996,10 +996,6 @@ img {
     width: 100%;
 }
 
-.active-profit {
-    color: #14FF00 !important;
-}
-
 .profit-tb__table th {
     border-right: 1px solid #FFD762;
     color: #FFD762;
@@ -1009,6 +1005,9 @@ img {
     font-weight: 100;
 }
 
+.active-profit {
+    color: #14FF00 !important;
+}
 
 .profit-tb__table td {
     line-height: 25px;
@@ -1188,6 +1187,7 @@ tbody :last-child {
 }
 
 .right-container {
+    font-size: 14px;
     margin-left: 2em;
     display: flex;
     align-items: center;
@@ -1423,7 +1423,7 @@ tbody :last-child {
     padding: 10px;
     overflow-x: auto;
     width: 100%;
-    height: 150px;
+    height: 228px;
     border: 1px solid #F8D05F;
     border-radius: 6px;
     color: #fff;
@@ -1586,6 +1586,7 @@ tbody :last-child {
 }
 
 .players-list_container {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
