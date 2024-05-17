@@ -5,6 +5,9 @@ html {
     overflow-x: hidden;
 }
 
+$grid-columns: 12 !default;
+$grid-gutter-width: 20px !default;
+
 @font-face { 
     font-family: "Gordita";
     src: url("../fonts/GorditaLight.ttf") format("truetype");
@@ -704,6 +707,12 @@ img {
     display: flex;
 }
 
+@media(min-width: 1700px) {
+    .card-mod {
+        width: 100% !important;
+    }
+}
+
 @media(max-width: 1025px) {
     .desktop-active {
         display: none;
@@ -1228,10 +1237,12 @@ tbody :last-child {
 }
 
 .notification-container-with-information {
+    padding-top: 20px;
     overflow-y: scroll;
     overflow-x: hidden;
     display: flex;
     border: none;
+    padding-right: 5px;
     background: none;
     flex-direction: column;
     align-items: center;

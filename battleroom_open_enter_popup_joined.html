@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./src/sass/battleroom_open_enter_popup_joined.css">    
+    <link rel="stylesheet" href="./src/sass/battleroom_open_enter_popup_joined.css">
+    <link rel="stylesheet" href="./src/sass/bootrstrap-docs.css">
+    <link rel="stylesheet" href="./src/sass/bootstrap.min.css">
     <link rel="stylesheet" href="./src/bootstrap-4.6/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="./src/bootstrap-4.6/bootstrap-grid.css">
     <link rel="stylesheet" href="./src/bootstrap-4.6/bootstrap-reboot.min.css">
@@ -981,7 +983,7 @@
     
     </div>
 
-    <dialog id="joinedPopup" class="joined-modal" aria-label="popup">
+    <!-- <dialog id="joinedPopup" class="joined-modal" aria-label="popup">
       
   
          
@@ -1037,13 +1039,34 @@
             </div>
            
     
- </dialog> 
+ </dialog>  -->
      
+
+ <div class="modal" id="myModal" tabindex="-1" aria-hidden="true" open>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
      
 
 
     <script src="./src/js/script.js"></script>
     <script src="./src/js/mobileModal.js"></script>
     <script src="./src/js/joined.popup.js"></script>
+    <script src="./src/js/bootstrap-modal.js"></script>
 </body>
 </html>

@@ -8,3 +8,8 @@ openButton.addEventListener('click', () => {
         mobileModal.classList.add('activation-mobile-menu_modal')
     }
 })
+
+
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })

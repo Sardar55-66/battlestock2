@@ -99,7 +99,6 @@ body {
 }
 
 .social-close_btn {
-  margin-right: 7px;
   width: 15px;
   height: 100%;
   background: none;
@@ -113,7 +112,7 @@ body {
 .decrease {
   padding-left: 15px;
   justify-content: center;
-  width: 105px !important;
+  width: 120px !important;
 }
 
 .status-bar {
@@ -134,19 +133,22 @@ body {
   height: 25px;
 }
 
-.social-media_share > a > svg {
-  margin-bottom: 8px;
-}
-
 .social-media_share > span {
   font-family: "Gordita";
-  font-size: 20px;
+  font-size: 16px;
   color: #F8D05F;
+  margin-top: 2px;
 }
 
 .social-media_share {
+  margin-right: 8px;
   font-size: 20px;
-  margin-bottom: 10px;
+  display: flex;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 66px;
+  margin: 0 auto;
 }
 
 .social-media {
@@ -1122,6 +1124,8 @@ tbody :last-child {
 
 .footer-wrap {
   height: 70%;
+  margin-top: 55px;
+  font-size: 14px;
 }
 
 .footer__title,
@@ -1129,6 +1133,7 @@ tbody :last-child {
   font-weight: 400;
   text-align: center;
   color: #AF894A;
+  font-size: 14px;
 }
 
 .footer__logos {
@@ -1644,7 +1649,7 @@ tbody :last-child {
   width: 160px;
 }
 
-.joined-modal {
+.joined-modal, .modal-dialog {
   font-family: "Gordita";
   overflow-y: hidden;
   flex-direction: column;
@@ -1674,6 +1679,8 @@ tbody :last-child {
   font-family: "Gordita";
   font-size: 26px;
   color: #fff;
+  width: 405px;
+  margin-bottom: 20px;
 }
 
 .popup-logo {
@@ -1693,6 +1700,11 @@ tbody :last-child {
   background: none;
   border: none;
   float: right;
+  cursor: pointer;
+}
+
+.social-media_page:first-child {
+  margin-left: 8px;
 }
 
 .social-media_page-modal {
