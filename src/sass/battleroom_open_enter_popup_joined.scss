@@ -604,6 +604,21 @@ img {
 .mobile-header_activation {
     justify-content: center;
 }
+@media(max-width: 405px) {
+    .social-logos {
+        margin-left: 0;
+    }
+    .popup-text {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 310px) {
+    .modal-backdrop {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
 
 
 @media(max-width: 1025px) {
@@ -766,7 +781,7 @@ img {
     .date-wrapper {
         width: 90%;
         position: absolute;
-        bottom: calc(32em + -6px);
+        bottom: calc(31em + -6px);
     }
 
     .logo-img_main-logo {
