@@ -279,7 +279,7 @@ img {
 	height: 73em;
 	border-bottom: none;
 	position: absolute;
-	height: calc(126% + 3px);
+	height: calc(122% + 2px);
 	border-bottom: none;
 }
 .sidebar__header {
@@ -454,6 +454,7 @@ img {
 	flex-direction: column;
 }
 .game-info-container-navigation_panel {
+	margin-top: 5rem;
 	>ul {
 		>li {
 			>a {
@@ -620,6 +621,7 @@ img {
 	}
 }
 .header-wrapper {
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -1112,7 +1114,7 @@ tbody {
 	font-family: $font-family_1;
 	overflow-y: hidden;
 	flex-direction: column;
-	width: 590px;
+	width: 95%;
 	min-height: 329px;
 	background: linear-gradient(#2E0327, #6D1153, #2E0327);
 	border: 1px solid #F8D05F;
@@ -1513,8 +1515,8 @@ tbody {
 		width: 100%;
 	}
 	.header-wrapper {
-		transform: translateY(40px);
-		transform: translateY(40px);
+		margin: 0 auto !important;
+		transform: translateY(70px);
 	}
 	.containers-second_main {
 		width: 90% !important;
@@ -1533,7 +1535,7 @@ tbody {
 	.date-wrapper {
 		width: 90%;
 		position: absolute;
-		bottom: calc(32em - 6px);
+		bottom: calc(30em - 6px);
 		width: 90%;
 		position: absolute;
 		bottom: calc(32em - 6px);
@@ -1562,6 +1564,11 @@ tbody {
 		width: 100% !important;
 	}
 }
+@media(max-width: 480px) {
+	.header-button {
+		width: 65%;
+	}
+}
 @media (max-width: 450px) {
 	div.elapsed {
 		padding-bottom: 0px !important;
@@ -1571,6 +1578,7 @@ tbody {
 		width: 67%;
 	}
 	.game-info-container-navigation_panel {
+		margin-left: 30px;
 		font-size: 14px;
 		width: 120%;
 		font-size: 14px;
