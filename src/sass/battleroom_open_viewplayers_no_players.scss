@@ -596,6 +596,9 @@ img {
 
 
 @media(max-width: 1025px) {
+    .left-container_subtitle {
+        font-size: 16px !important;
+    }
 
     .left-container__container {
         width: 90% !important;
