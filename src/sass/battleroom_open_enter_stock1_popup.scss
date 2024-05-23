@@ -591,6 +591,10 @@ img {
 
 
 @media(max-width: 1025px) {
+
+    .card-inner>span {
+        font-size: 22px !important;
+    }
     .desktop-active {
         display: none;
     }
