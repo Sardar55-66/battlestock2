@@ -157,8 +157,8 @@ body {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    right: 30px;
-    bottom: 35%;
+    right: 25px;
+    bottom: 30%;
     margin-right: 18px;
     z-index: 99;
     width: 90%;
@@ -222,7 +222,7 @@ img {
 
 .sidebars-inner_wrapper {
     position: absolute;
-    height: 119%;
+    height: 125%;
     border-bottom: none;
 }
 .sidebar__header {
@@ -1038,7 +1038,7 @@ tbody :last-child {
 }
 
 .left-right_container {
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -1061,6 +1061,9 @@ tbody :last-child {
 }
 
 .containers-second_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 72%;
     margin-left: 9rem;
 }
