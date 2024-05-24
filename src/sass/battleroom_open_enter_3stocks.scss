@@ -27,6 +27,7 @@ html {
 }
 
 body {
+    position: relative;
     font-family: 'Gordita';
     font-weight: 300;
     background-color: linear-gradient(#260021, #0B1432) !important;
@@ -60,6 +61,10 @@ body {
     background-repeat: no-repeat;
     top: 80px;
     z-index: 0;
+}
+
+.sidebar-menu>div {
+    width: 92%;
 }
 
 .main::after {
@@ -217,7 +222,7 @@ img {
 
 .sidebars-inner_wrapper {
     position: absolute;
-    height: 127%;
+    height: 119%;
     border-bottom: none;
 }
 .sidebar__header {
@@ -1038,7 +1043,7 @@ tbody :last-child {
     display: flex;
     flex-direction: column;
     color: #fff;
-    height: 100%;
+    height: 89%;
     border-radius: 6px;
     background-color: #3F0437;
 }
