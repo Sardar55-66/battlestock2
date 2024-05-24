@@ -349,7 +349,6 @@ img {
   position: relative;
   z-index: 98;
   width: 70%;
-  margin-left: 17px !important;
 }
 
 .score-points__title {
@@ -633,7 +632,11 @@ img {
   .profit-tb, .left-container__battle-restrictions, .left-container__battle-rules {
     margin-left: 15px;
   }
+  .score-points__title {
+    margin-top: 0 !important;
+  }
   .left-right_container {
+    margin-top: 0 !important;
     height: 240px !important;
   }
   .game-info-container-navigation_panel > ul {
@@ -656,7 +659,7 @@ img {
   .right-container {
     margin-top: 20px;
     margin-left: 0 !important;
-    margin-right: 7px;
+    margin-right: 36px;
     max-width: 99% !important;
     left: 18px;
   }
