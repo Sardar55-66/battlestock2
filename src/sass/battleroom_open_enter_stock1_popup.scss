@@ -152,7 +152,7 @@ body {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    right: 39px;
+    right: 13px;
     bottom: 64%;
     margin-right: 18px;
     z-index: 99;
@@ -217,7 +217,7 @@ img {
 
 .sidebars-inner_wrapper {
     position: absolute;
-    height: 125%;
+    height: calc(125% + 11px);
     border-bottom: none;
 }
 .sidebar__header {
@@ -583,9 +583,10 @@ img {
     justify-content: center;
 }
 .desktop-active {
-    position: relative;
-    left: 329px;
-    bottom: 121px;
+    position: absolute;
+    right: 37px;
+    top: 25%;
+    margin-top: 0 !important;
     margin-top: 0 !important;
 }
 
@@ -1181,6 +1182,7 @@ tbody :last-child {
 
 .footer__title,
 .footer__subtitle {
+    font-size: 14px;
     font-weight: 400;
     text-align: center;
     color: #AF894A;
