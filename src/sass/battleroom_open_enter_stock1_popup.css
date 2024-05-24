@@ -150,7 +150,7 @@ body {
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  right: 30px;
+  right: 39px;
   bottom: 64%;
   margin-right: 18px;
   z-index: 99;
@@ -607,7 +607,7 @@ img {
 
 .desktop-active {
   position: relative;
-  left: 237px;
+  left: 329px;
   bottom: 121px;
   margin-top: 0 !important;
 }
